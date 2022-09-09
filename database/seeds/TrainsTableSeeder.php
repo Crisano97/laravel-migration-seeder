@@ -26,7 +26,7 @@ class TrainsTableSeeder extends Seeder
                 "number_of_carriages" => '10',
                 "is_in_time" => 1,
                 "is_cancelled" => 0,
-                "departure_data" => '2022-09-09 08:15:00'
+                "departure_date" => '2022-09-09'
             ],
             [
                 "agency" => 'Metronapoli SpA',
@@ -38,7 +38,7 @@ class TrainsTableSeeder extends Seeder
                 "number_of_carriages" => '8',
                 "is_in_time" => 1,
                 "is_cancelled" => 0,
-                "departure_data" => '2022-09-09 08:15:00'
+                "departure_date" => '2022-09-09'
             ],
             [
                 "agency" => 'Italo',
@@ -50,7 +50,7 @@ class TrainsTableSeeder extends Seeder
                 "number_of_carriages" => '9',
                 "is_in_time" => 1,
                 "is_cancelled" => 0,
-                "departure_date" => '2022-09-09 17:30:00'
+                "departure_date" => '2022-09-10',
             ],
         ];
 

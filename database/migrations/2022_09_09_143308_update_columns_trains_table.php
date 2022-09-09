@@ -15,7 +15,7 @@ class UpdateColumnsTrainsTable extends Migration
     {
         //
         Schema::table('trains', function (Blueprint $table) {
-            $table->dateTime('departure_date');
+            $table->date('departure_date');
         });
     }
 
@@ -27,6 +27,8 @@ class UpdateColumnsTrainsTable extends Migration
     public function down()
     {
         //
-        Schema::dropIfExists('trains');
+        Schema::table('trains', function (Blueprint $table) {
+            $table->dropColumn('departure_date');
+        });
     }
 }
